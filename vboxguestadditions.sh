@@ -14,6 +14,5 @@ sudo dnf install \
 # change to vbox guest additions directory
 cd /run/media/$USER/VB*
 
-# switch to root and run
-su 
-./VBoxLinuxAdditions.run
+# switch to root and run 
+sudo ./VBoxLinuxAdditions.run
